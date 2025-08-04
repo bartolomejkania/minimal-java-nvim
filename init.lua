@@ -43,6 +43,9 @@ require("lazy").setup({
         'rcarriga/nvim-dap-ui',
         dependencies = 'mfussenegger/nvim-dap',
     },
+    {
+    	'nvim-tree/nvim-tree.lua',
+	},
 })
 
 require'mason'.setup()
