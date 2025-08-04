@@ -72,3 +72,4 @@ require'neotest'.setup({
         require'neotest-java',
     },
 })
+require("nvim-tree").setup()
